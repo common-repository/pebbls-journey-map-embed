@@ -1,0 +1,106 @@
+.pebbls-iframe-container {
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 400px;
+    /* Adjust as needed */
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pebbls-iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.pebbls-transport-summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pebbls-transport-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.pebbls-transport-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.pebbls-transport-item span {
+    font-size: 16px;
+    color: #333;
+}
+
+.pebbls-legs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Space between the legs */
+}
+
+.pebbls-leg-summary {
+    flex: 1 1 300px;
+    /* Each leg will take up at least 300px but will stretch to fill space */
+    padding: 12px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4px;
+    /* Extra margin for row spacing */
+}
+
+.pebbls-leg-title {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.pebbls-leg-transport {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.pebbls-leg-transport-item {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 15px;
+    margin-top: 0;
+}
+
+.pebbls-leg-transport-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.pebbls-leg-transport-item span {
+    font-size: 14px;
+    color: #555;
+}
+
+.pebbls-footer {
+    background-color: #f1f1f1;
+    border-radius: 0 0 12px 12px;
+    padding: 10px;
+    text-align: right;
+}
+
+.pebbls-footer a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #0056b3;
+}
